@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="./ass1.css" />
+  </head>
+
+  <body>
+    <div class="body1">
+      <div class="heading" id="head1">
+        <h2>RESUME</h2>
+      </div>
+      <div class="content" id="cont1">
+        <h4 class="head3">PERSONAL DATA</h4>
+        <p>Name: Sachet Vijay</p>
+
+        <p>Date of Birth: 30.10.2002</p>
+        <p>Place of Birth: Baran, Rajasthan</p>
+      </div>
+      <div class="content" id="cont2">
+        <h4 class="head3">EDUCATION</h4>
+        <table>
+          <tr class="rows">
+            <th class="thead">2020 - 2024</th>
+            <td>
+              Computer Science and Engineering at Indain Institute of
+              Information Technology Surat
+            </td>
+          </tr>
+          <tr class="rows">
+            <th class="thead">2018 - 2020</th>
+            <td>RMG Maheshwari English School, Surat</td>
+          </tr>
+        </table>
+      </div>
+      <div class="content" id="cont3">
+        <h4 class="head3">PROJECTS</h4>
+        <table>
+          <tr class="rows">
+            <th class="thead">GRAB</th>
+            <td>An online cab reservation system</td>
+          </tr>
+        </table>
+      </div>
+    </div>
+
+    <div class="audio">
+      <audio controls autoplay>
+        <source src="horse.ogg" type="audio/ogg" />
+        <source src="./Gypsy(PagalWorld).mp3" type="audio/mpeg" />
+        Your browser does not support the audio tag.
+      </audio>
+    </div>
+    <script>
+      var x = document.getElementById("myAudio");
+      x.autoplay = true;
+      x.load();
+    </script>
+  </body>
+</html>
